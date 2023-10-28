@@ -1,0 +1,47 @@
+*{
+    font-family: sans-serif;
+    background-color: bisque;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px; 
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(100px);
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px
+}
+
+
+
+body {
+    background-color: beige;
+}
+
+h3{
+    color: aquamarine;
+}
